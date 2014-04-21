@@ -1,0 +1,48 @@
+/**
+ * Terminal Typer
+ *
+ * Possibly the easiest way to simulate the look of a terminal. You can type on it too!
+ * 
+ * Made by Geoffrey Liu
+ * g-liu.com
+ * github.com/g-liu
+ */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, #terminal {
+	background-color: black;
+	color: lightgreen;
+	font-family: monospace;
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#terminal {
+	padding: 0.5em;
+}
+
+#terminal:focus {
+	border: none;
+	outline: none;
+}
+
+::-moz-selection {
+	background-color: lightgreen;
+	color: white;
+}
+
+::selection {
+	background-color: lightgreen;
+	color: white;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
