@@ -13,4 +13,4 @@ Beyond that, it's all about the styling to get that retro terminal look!
 Demo
 =====
 
-Check out http://g-liu.com/sandbox/tt for a live demo.
+http://g-liu.github.io/html-terminal
